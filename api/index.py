@@ -15,7 +15,7 @@ def title_data():
     else:
         return jsonify({}), response.status_code
 
-@app.route("/td", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"])
 def normal():
      return 'sigma'
 
