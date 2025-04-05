@@ -19,7 +19,7 @@ class GameInfo:
 settings = GameInfo()
 app = Flask(__name__)
 
-@app.route("/", methods=["POST"])
+@app.route("/", methods=["POST", "GET"])
 def titledata():
     response = requests.post(
         url=f"https://{settings.TitleId}.playfabapi.com/Server/GetTitleData",
