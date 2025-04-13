@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 class GameInfo:
 
     def __init__(self):
-        self.TitleId: str = "7AF94"
+        self.TitleId: str = "24EAA"
         self.SecretKey: str = "GBIPB74594RF9UDYHIAKASEJ1WG66KWWF4FAPKJK1WYZCC94S7"
         self.ApiKey: str = "OC|9807548162641339|f4cedc6635c40602c7fd43608a7c92cc"
 
